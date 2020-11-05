@@ -1,17 +1,37 @@
 # Cypress-test
 
-Instalar o node e npm
- `sudo apt update`
- `sudo apt install nodejs`
- `sudo apt install npm`
+**1. Instalar o node e npm**
+
+```sh
+ sudo apt update
+ sudo apt install nodejs
+ sudo apt install npm
+```
+
+**2. Inicialize o projeto npm no diretório**
+
+```sh
+ npm init
+```
+
+**3. Instale o cypress**
+
+```sh
+ npm install cypress --dev
+```
+
+**4. Teste a instalação e crie uma estrutura básica do cypres no seu diretório:**
+
+```sh
+ npx cypress open
+ ```
 
 
-Inicialize o projeto npm no diretório
- `npm init`
 
-Instale o cypress
- `npm install cypress --dev`
+**Primeiros passos:**
 
-Teste a instalação e crie uma estrutura básica do cypres no seu diretório:
- `npx cypress open`
+Após a criação da estrutura básica do Cypress e a execução do `npx cypress open`, uma aplicação chamada electron será executada e terá vários exemplos de testes. Como não vamos usá-los, então vamos exclui-los! Os arquivos que devem ser excluídos estão dentro da pasta `integration`, apague todas as specs desta pasta. 
 
+
+
+[COMO ACESSAR UMA PÁGINA]-(https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L2)
