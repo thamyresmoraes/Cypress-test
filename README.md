@@ -34,4 +34,4 @@ Após a criação da estrutura básica do Cypress e a execução do `npx cypress
 
 
 
-[COMO ACESSAR UMA PÁGINA]-(https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L2)
+- [COMO ACESSAR UMA PÁGINA](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L2)
