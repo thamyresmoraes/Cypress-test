@@ -57,3 +57,6 @@ Após a criação da estrutura básica do Cypress e a execução do `npx cypress
 - [ASSERTIONS](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L40-L49)
 
 - [ALIAS](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L51-L62)
+
+- [E2E](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L66-L94)
+
