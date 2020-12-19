@@ -38,8 +38,12 @@ Após a criação da estrutura básica do Cypress e a execução do `npx cypress
 
 - [COMO ACESSAR UMA PÁGINA](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L2)
 
-- [DIGITANDO EM CAMPOS DE TEXTO] - 
-	Comando básicos:
-		`cy.get()` -> Identifica elementos através de selector css
-		`type` -> Digita no campo
-		`it.only()` -> Para executar somente um teste
+- [DIGITANDO EM CAMPOS DE TEXTO](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L8-L13)
+	
+	**Comandos:**
+
+ 	* Identifica elementos através de selector css - `cy.get()`
+
+	* Digita no campo - `type`
+
+	* Para executar somente um teste - `it.only()`
