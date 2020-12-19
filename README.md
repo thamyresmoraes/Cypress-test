@@ -52,3 +52,4 @@ Após a criação da estrutura básica do Cypress e a execução do `npx cypress
 
 - [INTERAGINDO COM RADIO BUTTONS](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L22)
 
+- [INTERAGINDO COM CHECKBOX](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L26-L37)
