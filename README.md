@@ -48,4 +48,4 @@ Após a criação da estrutura básica do Cypress e a execução do `npx cypress
 
 	* Para executar somente um teste - `it.only()`
 
-- [INTERAGINDO COM ELEMENTOS DO TIPO SELECT]()
+- [INTERAGINDO COM ELEMENTOS DO TIPO SELECT](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L17)
