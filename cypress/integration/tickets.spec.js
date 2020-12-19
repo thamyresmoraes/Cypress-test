@@ -1,7 +1,7 @@
 describe("Tickets", () => {
 	beforeEach(() => cy.visit("https://bit.ly/2XSuwCW"));
 
-	it.only("fill all the text input fields", () =>{
+	it("fill all the text input fields", () =>{
 		const firstName = "Thamyres"
 		const lastName = "Moraes";
 
@@ -13,6 +13,10 @@ describe("Tickets", () => {
 
 	});
 
+	it.only("select two tickets", () =>{
+		cy.get("#ticket-quantity").select("2")
+
+	});
 
 	it("has 'TICKETBOX' headr's heading", () => {});
 
