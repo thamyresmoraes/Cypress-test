@@ -34,4 +34,12 @@ Após a criação da estrutura básica do Cypress e a execução do `npx cypress
 
 
 
+**Exemplos:**
+
 - [COMO ACESSAR UMA PÁGINA](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L2)
+
+- [DIGITANDO EM CAMPOS DE TEXTO] - 
+	Comando básicos:
+		`cy.get()` -> Identifica elementos através de selector css
+		`type` -> Digita no campo
+		`it.only()` -> Para executar somente um teste

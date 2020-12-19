@@ -1,0 +1,28 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "Curso de cypress da escola TAT",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thamyresmoraes/Cypress-test.git"
+  },
+  "keywords": [
+    "cypress",
+    "teste",
+    "automation",
+    "e2e"
+  ],
+  "author": "Thamyres Moraes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thamyresmoraes/Cypress-test/issues"
+  },
+  "homepage": "https://github.com/thamyresmoraes/Cypress-test#readme",
+  "dependencies": {
+    "cypress": "^5.5.0"
+  }
+}
