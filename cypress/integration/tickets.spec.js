@@ -13,10 +13,16 @@ describe("Tickets", () => {
 
 	});
 
-	it.only("select two tickets", () =>{
+	it("select two tickets", () =>{
 		cy.get("#ticket-quantity").select("2")
 
 	});
+
+	it("select 'vip' ticket type", () =>{
+		cy.get("#vip").check();
+
+	});
+
 
 	it("has 'TICKETBOX' headr's heading", () => {});
 
