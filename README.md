@@ -47,3 +47,5 @@ Após a criação da estrutura básica do Cypress e a execução do `npx cypress
 	* Digita no campo - `type`
 
 	* Para executar somente um teste - `it.only()`
+
+- [INTERAGINDO COM ELEMENTOS DO TIPO SELECT]()
