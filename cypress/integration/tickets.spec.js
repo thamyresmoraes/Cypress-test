@@ -14,6 +14,7 @@ describe("Tickets", () => {
 	});
 
 	it.only("select two tickets", () =>{
+		cy.get("#ticket-quantity").select("2")
 
 	});
 
