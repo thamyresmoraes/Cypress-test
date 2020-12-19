@@ -37,7 +37,14 @@ describe("Tickets", () => {
 	});
 
 
-	it("has 'TICKETBOX' headr's heading", () => {});
+	it("has 'TICKETBOX' headr's heading", () => {
+		cy.get("header h1").should("contain", "TICKETBOX");
 
+	});
 
+	it("alerts on invalid email", () => {
+		cy.get("#email").type("emailInvalido.com");
+
+		cy.get("#email.invalid").should("exist");
+	});
 });
