@@ -47,4 +47,19 @@ describe("Tickets", () => {
 
 		cy.get("#email.invalid").should("exist");
 	});
+
+	it("alias", () => {
+		cy.get("#email")
+		.as("email")
+		.type("emailInvalido.com");
+
+		cy.get("#email.invalid").should("exist");
+
+		cy.get("@email") //chamando o alias que digita um email
+			.clear() //limpando o campo
+			.type("thamyres@email.com") //digitando um email valido
+
+		cy.get("#email.invalid").should("not.exist");
+
+	});
 });
