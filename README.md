@@ -62,3 +62,5 @@ Após a criação da estrutura básica do Cypress e a execução do `npx cypress
 
 - [COMANDOS CUSTOMIZADOS](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/integration/tickets.spec.js#L98-L113)
 	-  [COMANDOS CUSTOMIZADOS - (support/commands.js)](https://github.com/thamyresmoraes/Cypress-test/blob/master/cypress/support/commands.jss#L28-L33)
+
+- [HEADLESS & INTEGRAÇÃO CONTINUA]()
