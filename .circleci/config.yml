@@ -1,0 +1,8 @@
+version: 2.1
+orbs:
+  node: circleci/node@3.0.0
+  cypress: cypress-io/cypress@1.26.0
+workflows:
+  node-tests:
+    jobs:
+      - cypress/run
