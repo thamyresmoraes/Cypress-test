@@ -1,5 +1,8 @@
 # Cypress-test
 
+
+[![CircleCI](https://circleci.com/gh/thamyresmoraes/Cypress-test.svg?style=svg)](https://circleci.com/gh/thamyresmoraes/Cypress-test)
+
 **1. Instalar o node e npm**
 
 ```sh
