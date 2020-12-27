@@ -1,8 +1,9 @@
 version: 2.1
 orbs:
-  cypress: cypress-io/cypress@1
+  cypress: cypress-io/cypress@1.0.0
 workflows:
   build:
     jobs:
       - cypress/run:
-          install-command: yarn install --frozen-lockfile
+           build: "npm run build"
+           record: true
