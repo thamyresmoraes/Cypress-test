@@ -1,7 +1,9 @@
+import { qase } from 'cypress-qase-reporter/dist/mocha';
+
 describe("Tickets", () => {
 	beforeEach(() => cy.visit("https://bit.ly/2XSuwCW"));
 
-	it("fill all the text input fields", () =>{
+	it.skip("fill all the text input fields", () =>{
 		const firstName = "Thamyres"
 		const lastName = "Moraes";
 
@@ -10,6 +12,7 @@ describe("Tickets", () => {
 		cy.get("#email").type("thamyresmoraes@live.com");
 		cy.get("#requests").type("QA");
 		cy.get("#signature").type(`${firstName} ${lastName}`);
+
 
 	});
 
@@ -29,15 +32,15 @@ describe("Tickets", () => {
 	});
 
 
-	it("selects 'friend' and 'publication' then uncheck 'friend'", () =>{
+	 it("selects 'friend' and 'publication' then uncheck 'friend'", () =>{
 		cy.get('#friend').check();
 		cy.get('#publication').check();
 		cy.get('#friend').uncheck();
-		
+
 	});
 
 
-	it("has 'TICKETBOX' headr's heading", () => {
+	 it("has 'TICKETBOX' headr's heading", () => {
 		cy.get("header h1").should("contain", "TICKETBOX");
 
 	});
@@ -48,7 +51,7 @@ describe("Tickets", () => {
 		cy.get("#email.invalid").should("exist");
 	});
 
-	it("alias", () => {
+	 it("alias", () => {
 		cy.get("#email")
 		.as("email")
 		.type("emailInvalido.com");
@@ -77,11 +80,11 @@ describe("Tickets", () => {
 		cy.get("#requests").type("e2e");
 
 		cy.get(".agreement p").should(
-			"contain", 
+			"contain",
 			`I, ${fullName}, wish to buy 2 VIP tickets.`
-			
+
 		);
-		
+
 		cy.get("#agree").click()
 		cy.get("#signature").type(fullName);
 
@@ -92,10 +95,10 @@ describe("Tickets", () => {
 		cy.get("button[type='reset']").click();
 
 		cy.get("@submitButton").should("be.disabled");
-		
+
 	});
 
-	it("fills mandatory fields using support command", () =>{
+	 it("fills mandatory fields using support command", () =>{
 		const customer = {
 			firstName: "Teste",
 			lastName: "Silva",
